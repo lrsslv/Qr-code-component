@@ -1,0 +1,39 @@
+body {
+    background-color: var(--neutral-soft);
+    font-family: 'Outfit', sans-serif;
+}
+
+main {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    padding: 0 25px;
+}
+
+.qr-code {
+    max-width: 318px;
+    background-color: #ffffff;
+    border-radius: 17px;
+    padding: 15px;
+}
+
+.qr-code .qr-code-picture {
+    position: relative;
+    width: 100%;
+    border-radius: 10px;
+}
+
+.qr-code .title {
+    text-align: center;
+    font-size: 22px;
+    font-weight: 700;
+    margin: 24px 15px 15px;
+}
+
+.qr-code .about {
+    text-align: center;
+    font-size: 15px;
+    font-weight: 400;
+    margin: 0 17px 28px;
+}
